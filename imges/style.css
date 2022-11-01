@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    }
+
+body {
+    background-image: url("../imges/me.jpg");
+    background-size: cover;
+    }
+
+
+/* Header */
+
+header {
+    background-color: black;
+    height: 5em;
+        
+} 
+
+#logo {
+    margin-left: 5%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    height: 4em;
+}
+.navigation {
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin: 4px;
+}
+
+.navigation a:hover {
+    background-color:rebeccapurple;
+    color: black;
+}
+/* Aside */
+.side {
+    color:black;
+    margin: 100px;
+    width: 50%;
+    float: left;
+}
+.side p{
+    color:darkblue;
+    text-align: justify;
+    padding: 2px;
+}
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    height: 1.5em;
+    margin-top: 58%;
+    text-align: center;
+}
